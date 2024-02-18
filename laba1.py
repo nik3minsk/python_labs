@@ -94,19 +94,19 @@
 # 13.  Найти для каждого элемента списка А сумму предыдущих элементов и записать эти суммы в новый список B.
 # -----------------------------------------------------------
 
-import random
-from random import randrange
-list_a = []
-dlina_spiska = int(input("Введите количество случайных числе для списка : "))
-for i in range(dlina_spiska):
-    list_a.append(random.randrange(0, 99, 1))
-
-
-list_b = []
-for i in range(dlina_spiska):
-    sum = 0
-    for j in range(i):
-        sum += list_a[j]
-    list_b.append(sum)
-print("List_a :", list_a)
-print("List_b :", list_b)
+# import random
+# from random import randrange
+# list_a = []
+# dlina_spiska = int(input("Введите количество случайных числе для списка : "))
+# for i in range(dlina_spiska):
+#     list_a.append(random.randrange(0, 99, 1))
+#
+#
+# list_b = []
+# for i in range(dlina_spiska):
+#     sum = 0
+#     for j in range(i):
+#         sum += list_a[j]
+#     list_b.append(sum)
+# print("List_a :", list_a)
+# print("List_b :", list_b)
