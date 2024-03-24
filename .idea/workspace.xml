@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83637e7b-48e6-4a43-82b1-d34ea221b446" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laba2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laba1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort3method.py" afterDir="false" />
+    <list default="true" id="83637e7b-48e6-4a43-82b1-d34ea221b446" name="Changes" comment="laba 2 - ok">
+      <change afterPath="$PROJECT_DIR$/detalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laba3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2cPTzj00u3LRsthKqRfg7Q8E0c6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,10 +37,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.detalization.executor": "Run",
     "Python.example2.executor": "Run",
     "Python.lab2.executor": "Run",
     "Python.laba1.executor": "Run",
+    "Python.laba2.executor": "Run",
+    "Python.laba3.executor": "Run",
+    "Python.new_python.executor": "Run",
+    "Python.probaClasses.executor": "Run",
     "Python.sort3method.executor": "Run",
+    "Python.strings.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -61,7 +62,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -73,8 +74,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708012478899</updated>
-      <workItem from="1708012485826" duration="10560000" />
+      <workItem from="1708012485826" duration="26493000" />
+      <workItem from="1708718854244" duration="2508000" />
+      <workItem from="1709570067402" duration="11776000" />
+      <workItem from="1709747487770" duration="439000" />
+      <workItem from="1710958939373" duration="4176000" />
+      <workItem from="1711201461245" duration="614000" />
+      <workItem from="1711259589534" duration="4398000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit lab1_ex task1 ()">
+      <option name="closed" value="true" />
+      <created>1708027957274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708027957274</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit lab1_ex task1 ()">
+      <option name="closed" value="true" />
+      <created>1708275381481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708275381481</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit lab1_ex task1 ()">
+      <option name="closed" value="true" />
+      <created>1708275436941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708275436941</updated>
+    </task>
+    <task id="LOCAL-00004" summary="laba 2 - ok">
+      <option name="closed" value="true" />
+      <created>1708279155310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708279155310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,21 +131,22 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/laba1.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="laba 1 completed" />
+    <MESSAGE value="first commit lab1_ex task1 ()" />
+    <MESSAGE value="laba 2 - ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="laba 2 - ok" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/laba2$laba1.coverage" NAME="laba1 Coverage Results" MODIFIED="1708027444867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/laba2$example2.coverage" NAME="example2 Coverage Results" MODIFIED="1708015999738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/laba2$sort3method.coverage" NAME="sort3method Coverage Results" MODIFIED="1708022398470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laba2$strings.coverage" NAME="strings Coverage Results" MODIFIED="1709663656611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laba2$laba3.coverage" NAME="laba3 Coverage Results" MODIFIED="1711259617028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laba2$new_python.coverage" NAME="new_python Coverage Results" MODIFIED="1708720158336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laba2$probaClasses.coverage" NAME="probaClasses Coverage Results" MODIFIED="1711261995164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/laba2$laba1.coverage" NAME="laba1 Coverage Results" MODIFIED="1708275344295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laba2$laba2.coverage" NAME="laba2 Coverage Results" MODIFIED="1708278997184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laba2$detalization.coverage" NAME="detalization Coverage Results" MODIFIED="1711263737097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laba2$example2.coverage" NAME="example2 Coverage Results" MODIFIED="1708265861055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laba2$sort3method.coverage" NAME="sort3method Coverage Results" MODIFIED="1708786475994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/laba2$lab2.coverage" NAME="lab2 Coverage Results" MODIFIED="1708012639986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
