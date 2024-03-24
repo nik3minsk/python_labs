@@ -14,8 +14,13 @@ class Abiturient:
         self.adress = adress
         self.phone = phone
         self.class_marks = class_marks
-    # @classmethod
-
+    @classmethod
+    def search_bad_abiturients(cls, abiturients):
+        for abiturient in abiturients:
+            for class_mark in abiturient.class_marks:
+                if class_mark <= 3 :
+                    print("Bad abiturients")
+                    print(abiturient.name,  class_mark)
 
 
 
@@ -42,5 +47,7 @@ for i in range(qnt):
 
     my_abiturient.append(abiturient)
 
-for abiturient in my_abiturient:
-    print(abiturient.id, abiturient.name, abiturient.surname, abiturient.patronymic, abiturient.adress, abiturient.phone, abiturient.class_marks)
+# for abiturient in my_abiturient:
+#     print(abiturient.id, abiturient.name, abiturient.surname, abiturient.patronymic, abiturient.adress, abiturient.phone, abiturient.class_marks)
+print("-------------")
+Abiturient.search_bad_abiturients(my_abiturient);
