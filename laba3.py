@@ -22,6 +22,16 @@ class Abiturient:
                     print("Bad abiturients")
                     print(abiturient.name,  class_mark)
 
+    @classmethod
+    def sum_abiturients(cls, abiturients, need_avg_marks):
+        for abiturient in abiturients:
+            abit_sum = 0;
+            for class_mark in abiturient.class_marks:
+                abit_sum = abit_sum + class_mark;
+            if need_avg_marks < abit_sum :
+                print("Абитуриенты со средним баллом выше запрошенного: ", need_avg_marks)
+                print(abiturient.name)
+
 
 
 
@@ -46,8 +56,11 @@ for i in range(qnt):
     abiturient = Abiturient(id, name, surname, patronymic, adress, phone, list_of_marks)
 
     my_abiturient.append(abiturient)
-
+# int need_avg_marks = 6;
 # for abiturient in my_abiturient:
 #     print(abiturient.id, abiturient.name, abiturient.surname, abiturient.patronymic, abiturient.adress, abiturient.phone, abiturient.class_marks)
 print("-------------")
-Abiturient.search_bad_abiturients(my_abiturient);
+# Abiturient.search_bad_abiturients(my_abiturient);
+
+
+Abiturient.sum_abiturients(my_abiturient,36);
